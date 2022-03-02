@@ -4,7 +4,12 @@
   "description": "An API REST using express.js",
   "main": "index.js",
   "scripts": {
+    "start": "nodemon index",
     "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vzcl/express_workshop.git"
   },
   "keywords": [
     "api",
@@ -14,7 +19,15 @@
   ],
   "author": "Leonardo VC",
   "license": "ISC",
-  "dependencies": {
+  "bugs": {
+    "url": "https://github.com/vzcl/express_workshop/issues"
+  },
+  "homepage": "https://github.com/vzcl/express_workshop#readme",
+  "dependencias": {
     "express": "^4.17.3"
+  },
+  "dependencies": {
+    "express": "^4.17.3",
+    "nodemon": "^2.0.15"
   }
 }
